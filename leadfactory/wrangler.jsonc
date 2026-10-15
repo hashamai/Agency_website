@@ -1,6 +1,6 @@
 // Cloudflare Workers config: serves the Vite build in dist/ as a static site (no server code).
 {
-  "name": "leadfactory",
+  "name": "agency-website",
   "compatibility_date": "2025-10-01",
   "assets": {
     "directory": "./dist",
