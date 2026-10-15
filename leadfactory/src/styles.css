@@ -68,8 +68,8 @@ section{padding-block:clamp(72px,10vw,128px)}
 /* nav */
 nav.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:30;background:var(--blue);border-bottom:1px solid rgba(255,255,255,.14)}
 nav.top .wrap{display:flex;align-items:center;gap:28px;padding-block:13px}
-.logo{display:flex;align-items:center;gap:10px;text-decoration:none;font-family:var(--f-head);font-weight:600;font-size:1.3rem;line-height:1;letter-spacing:-.02em}
-.logo svg{width:24px;height:28px;flex:none}
+.logo{display:flex;align-items:center;gap:.36em;text-decoration:none;font-family:var(--f-head);font-weight:700;font-size:1.3rem;line-height:1;letter-spacing:-.03em}
+.logo svg{height:.94em;width:auto;flex:none;color:currentColor}
 .links{display:flex;gap:28px;margin-inline:auto;font-size:.95rem;color:rgba(255,255,255,.78)}
 .links a{text-decoration:none}.links a:hover{color:#fff}
 .nav-cta{background:#fff;color:var(--navy);font-weight:600;font-size:.95rem;padding:10px 24px;border-radius:999px;text-decoration:none;white-space:nowrap;box-shadow:0 0 0 2px var(--blue),0 0 0 3.5px rgba(255,255,255,.85)}
