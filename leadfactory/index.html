@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="description" content="AI growth and automation for service businesses. We answer every call, follow up every lead and wake up old quotes, measured in booked jobs." />
+    <meta name="theme-color" content="#0A2BFF" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600&family=Instrument+Serif:ital@0;1&display=swap" />
+    <title>Leadfactory</title>
+    <script>
+      // Turn on scroll reveals only when motion is welcome; set before first paint so nothing flashes.
+      (function () {
+        var root = document.documentElement;
+        if ("IntersectionObserver" in window && window.matchMedia("(prefers-reduced-motion: no-preference)").matches) {
+          root.classList.add("js-reveal");
+          // If the app fails to boot, show everything rather than leave sections hidden.
+          setTimeout(function () { if (!window.__revealReady) root.classList.remove("js-reveal"); }, 2500);
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
